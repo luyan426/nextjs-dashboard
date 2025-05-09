@@ -16,8 +16,8 @@ export default async function InvoicesTable({
   return (
     <div className="mt-6 flow-root">
       <div className="inline-block min-w-full align-middle">
-        <div className="rounded-lg bg-gray-50 p-2 md:pt-0">
-          <div className="md:hidden">
+        <div className="rounded-lg bg-red-50 p-2 md:pt-0">
+          <div className="md:hidden bg-green-50">
             {invoices?.map((invoice) => (
               <div
                 key={invoice.id}
